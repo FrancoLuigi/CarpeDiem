@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Competenza" representedClassName="Competenza" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="id_titolo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Titolo" inverseName="id_competenza" inverseEntity="Titolo" syncable="YES"/>
+    </entity>
+    <entity name="Persona" representedClassName="Persona" syncable="YES" codeGenerationType="class">
+        <attribute name="cognome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sesso" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="id_titolo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Titolo" inverseName="id_persona" inverseEntity="Titolo" syncable="YES"/>
+    </entity>
+    <entity name="Titolo" representedClassName="Titolo" syncable="YES" codeGenerationType="class">
+        <attribute name="ambito" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="id_competenza" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Competenza" inverseName="id_titolo" inverseEntity="Competenza" syncable="YES"/>
+        <relationship name="id_persona" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Persona" inverseName="id_titolo" inverseEntity="Persona" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Competenza" positionX="130.09375" positionY="-332.88671875" width="128" height="90"/>
+        <element name="Persona" positionX="470.390625" positionY="-167.3984375" width="128" height="135"/>
+        <element name="Titolo" positionX="86.515625" positionY="-95.09375" width="128" height="120"/>
+    </elements>
+</model>
