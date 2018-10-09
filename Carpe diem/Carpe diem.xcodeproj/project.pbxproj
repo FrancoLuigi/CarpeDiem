@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17D317C9216D2C86003B7E12 /* ViewControllerDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D317C8216D2C86003B7E12 /* ViewControllerDate.swift */; };
+		17D317CB216D2EE7003B7E12 /* ViewControllerTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D317CA216D2EE7003B7E12 /* ViewControllerTitle.swift */; };
+		17D317CD216D2F03003B7E12 /* ViewControllerSector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D317CC216D2F03003B7E12 /* ViewControllerSector.swift */; };
+		17D317CF216D2F14003B7E12 /* ViewControllerSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D317CE216D2F14003B7E12 /* ViewControllerSkills.swift */; };
+		17D317D1216D2F3D003B7E12 /* ViewControllerExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D317D0216D2F3D003B7E12 /* ViewControllerExperience.swift */; };
 		D9724242216B38BD004FE177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724241216B38BD004FE177 /* AppDelegate.swift */; };
-		D9724244216B38BD004FE177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724243216B38BD004FE177 /* ViewController.swift */; };
+		D9724244216B38BD004FE177 /* ViewControllerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724243216B38BD004FE177 /* ViewControllerName.swift */; };
 		D9724247216B38BD004FE177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9724245216B38BD004FE177 /* Main.storyboard */; };
 		D972424A216B38BD004FE177 /* Carpe_diem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9724248216B38BD004FE177 /* Carpe_diem.xcdatamodeld */; };
 		D972424C216B38BE004FE177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D972424B216B38BE004FE177 /* Assets.xcassets */; };
@@ -39,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17D317C8216D2C86003B7E12 /* ViewControllerDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDate.swift; sourceTree = "<group>"; };
+		17D317CA216D2EE7003B7E12 /* ViewControllerTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTitle.swift; sourceTree = "<group>"; };
+		17D317CC216D2F03003B7E12 /* ViewControllerSector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSector.swift; sourceTree = "<group>"; };
+		17D317CE216D2F14003B7E12 /* ViewControllerSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSkills.swift; sourceTree = "<group>"; };
+		17D317D0216D2F3D003B7E12 /* ViewControllerExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExperience.swift; sourceTree = "<group>"; };
 		D972423E216B38BC004FE177 /* Carpe diem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carpe diem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9724241216B38BD004FE177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9724243216B38BD004FE177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9724243216B38BD004FE177 /* ViewControllerName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerName.swift; sourceTree = "<group>"; };
 		D9724246216B38BD004FE177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9724249216B38BD004FE177 /* Carpe_diem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carpe_diem.xcdatamodel; sourceTree = "<group>"; };
 		D972424B216B38BE004FE177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,8 +119,13 @@
 			children = (
 				D9724241216B38BD004FE177 /* AppDelegate.swift */,
 				D9DD7CDC216CA68C009A38CF /* TableViewControllerRequisiti.swift */,
-				D9724243216B38BD004FE177 /* ViewController.swift */,
+				D9724243216B38BD004FE177 /* ViewControllerName.swift */,
 				D9724245216B38BD004FE177 /* Main.storyboard */,
+				17D317CA216D2EE7003B7E12 /* ViewControllerTitle.swift */,
+				17D317CC216D2F03003B7E12 /* ViewControllerSector.swift */,
+				17D317CE216D2F14003B7E12 /* ViewControllerSkills.swift */,
+				17D317D0216D2F3D003B7E12 /* ViewControllerExperience.swift */,
+				17D317C8216D2C86003B7E12 /* ViewControllerDate.swift */,
 				D9DD7CDA216C8B08009A38CF /* TableViewCellRequisiti.swift */,
 				D9DD7CD0216BC904009A38CF /* TableViewCellPosizioni.swift */,
 				D9DD7CCE216BB405009A38CF /* TableViewControllerPosizioni.swift */,
@@ -271,13 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D317CF216D2F14003B7E12 /* ViewControllerSkills.swift in Sources */,
+				17D317C9216D2C86003B7E12 /* ViewControllerDate.swift in Sources */,
 				D9DD7CCF216BB405009A38CF /* TableViewControllerPosizioni.swift in Sources */,
-				D9724244216B38BD004FE177 /* ViewController.swift in Sources */,
+				17D317CD216D2F03003B7E12 /* ViewControllerSector.swift in Sources */,
+				D9724244216B38BD004FE177 /* ViewControllerName.swift in Sources */,
 				D972424A216B38BD004FE177 /* Carpe_diem.xcdatamodeld in Sources */,
 				D9724242216B38BD004FE177 /* AppDelegate.swift in Sources */,
 				D9DD7CDD216CA68C009A38CF /* TableViewControllerRequisiti.swift in Sources */,
+				17D317D1216D2F3D003B7E12 /* ViewControllerExperience.swift in Sources */,
 				D9DD7CD1216BC904009A38CF /* TableViewCellPosizioni.swift in Sources */,
 				D9DD7CDB216C8B08009A38CF /* TableViewCellRequisiti.swift in Sources */,
+				17D317CB216D2EE7003B7E12 /* ViewControllerTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3385HTW395;
+				DEVELOPMENT_TEAM = 2TG63N7PA7;
 				INFOPLIST_FILE = "Carpe diem/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3385HTW395;
+				DEVELOPMENT_TEAM = 2TG63N7PA7;
 				INFOPLIST_FILE = "Carpe diem/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
