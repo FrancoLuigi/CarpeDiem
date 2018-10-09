@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E94CFF216D1D9000542665 /* Carpe_diem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17E94CFD216D1D9000542665 /* Carpe_diem.xcdatamodeld */; };
+		D9724242216B38BD004FE177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724241216B38BD004FE177 /* AppDelegate.swift */; };
+		D9724244216B38BD004FE177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724243216B38BD004FE177 /* ViewController.swift */; };
+		D9724247216B38BD004FE177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9724245216B38BD004FE177 /* Main.storyboard */; };
+		D972424C216B38BE004FE177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D972424B216B38BE004FE177 /* Assets.xcassets */; };
+		D972424F216B38BE004FE177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D972424D216B38BE004FE177 /* LaunchScreen.storyboard */; };
+		D972425A216B38BE004FE177 /* Carpe_diemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724259216B38BE004FE177 /* Carpe_diemTests.swift */; };
+		D9724265216B38BE004FE177 /* Carpe_diemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9724264216B38BE004FE177 /* Carpe_diemUITests.swift */; };
+		D9DD7CCF216BB405009A38CF /* TableViewControllerPosizioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD7CCE216BB405009A38CF /* TableViewControllerPosizioni.swift */; };
+		D9DD7CD1216BC904009A38CF /* TableViewCellPosizioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD7CD0216BC904009A38CF /* TableViewCellPosizioni.swift */; };
+		D9DD7CDB216C8B08009A38CF /* TableViewCellRequisiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD7CDA216C8B08009A38CF /* TableViewCellRequisiti.swift */; };
+		D9DD7CDD216CA68C009A38CF /* TableViewControllerRequisiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD7CDC216CA68C009A38CF /* TableViewControllerRequisiti.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9724256216B38BE004FE177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9724236216B38BC004FE177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D972423D216B38BC004FE177;
+			remoteInfo = "Carpe diem";
+		};
+		D9724261216B38BE004FE177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9724236216B38BC004FE177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D972423D216B38BC004FE177;
+			remoteInfo = "Carpe diem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E94CFE216D1D9000542665 /* Carpe_diem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carpe_diem.xcdatamodel; sourceTree = "<group>"; };
+		D972423E216B38BC004FE177 /* Carpe diem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carpe diem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9724241216B38BD004FE177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9724243216B38BD004FE177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9724246216B38BD004FE177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D972424B216B38BE004FE177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D972424E216B38BE004FE177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9724250216B38BE004FE177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9724255216B38BE004FE177 /* Carpe diemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carpe diemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9724259216B38BE004FE177 /* Carpe_diemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carpe_diemTests.swift; sourceTree = "<group>"; };
+		D972425B216B38BE004FE177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9724260216B38BE004FE177 /* Carpe diemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carpe diemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9724264216B38BE004FE177 /* Carpe_diemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carpe_diemUITests.swift; sourceTree = "<group>"; };
+		D9724266216B38BE004FE177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DD7CCE216BB405009A38CF /* TableViewControllerPosizioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerPosizioni.swift; sourceTree = "<group>"; };
+		D9DD7CD0216BC904009A38CF /* TableViewCellPosizioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPosizioni.swift; sourceTree = "<group>"; };
+		D9DD7CDA216C8B08009A38CF /* TableViewCellRequisiti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellRequisiti.swift; sourceTree = "<group>"; };
+		D9DD7CDC216CA68C009A38CF /* TableViewControllerRequisiti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerRequisiti.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D972423B216B38BC004FE177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9724252216B38BE004FE177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D972425D216B38BE004FE177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9724235216B38BC004FE177 = {
+			isa = PBXGroup;
+			children = (
+				D9724240216B38BC004FE177 /* Carpe diem */,
+				D9724258216B38BE004FE177 /* Carpe diemTests */,
+				D9724263216B38BE004FE177 /* Carpe diemUITests */,
+				D972423F216B38BC004FE177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D972423F216B38BC004FE177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D972423E216B38BC004FE177 /* Carpe diem.app */,
+				D9724255216B38BE004FE177 /* Carpe diemTests.xctest */,
+				D9724260216B38BE004FE177 /* Carpe diemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9724240216B38BC004FE177 /* Carpe diem */ = {
+			isa = PBXGroup;
+			children = (
+				D9724241216B38BD004FE177 /* AppDelegate.swift */,
+				D9DD7CDC216CA68C009A38CF /* TableViewControllerRequisiti.swift */,
+				D9724243216B38BD004FE177 /* ViewController.swift */,
+				D9724245216B38BD004FE177 /* Main.storyboard */,
+				D9DD7CDA216C8B08009A38CF /* TableViewCellRequisiti.swift */,
+				17E94CFD216D1D9000542665 /* Carpe_diem.xcdatamodeld */,
+				D9DD7CD0216BC904009A38CF /* TableViewCellPosizioni.swift */,
+				D9DD7CCE216BB405009A38CF /* TableViewControllerPosizioni.swift */,
+				D972424B216B38BE004FE177 /* Assets.xcassets */,
+				D972424D216B38BE004FE177 /* LaunchScreen.storyboard */,
+				D9724250216B38BE004FE177 /* Info.plist */,
+			);
+			path = "Carpe diem";
+			sourceTree = "<group>";
+		};
+		D9724258216B38BE004FE177 /* Carpe diemTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9724259216B38BE004FE177 /* Carpe_diemTests.swift */,
+				D972425B216B38BE004FE177 /* Info.plist */,
+			);
+			path = "Carpe diemTests";
+			sourceTree = "<group>";
+		};
+		D9724263216B38BE004FE177 /* Carpe diemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9724264216B38BE004FE177 /* Carpe_diemUITests.swift */,
+				D9724266216B38BE004FE177 /* Info.plist */,
+			);
+			path = "Carpe diemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D972423D216B38BC004FE177 /* Carpe diem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9724269216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diem" */;
+			buildPhases = (
+				D972423A216B38BC004FE177 /* Sources */,
+				D972423B216B38BC004FE177 /* Frameworks */,
+				D972423C216B38BC004FE177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carpe diem";
+			productName = "Carpe diem";
+			productReference = D972423E216B38BC004FE177 /* Carpe diem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9724254216B38BE004FE177 /* Carpe diemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D972426C216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diemTests" */;
+			buildPhases = (
+				D9724251216B38BE004FE177 /* Sources */,
+				D9724252216B38BE004FE177 /* Frameworks */,
+				D9724253216B38BE004FE177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9724257216B38BE004FE177 /* PBXTargetDependency */,
+			);
+			name = "Carpe diemTests";
+			productName = "Carpe diemTests";
+			productReference = D9724255216B38BE004FE177 /* Carpe diemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D972425F216B38BE004FE177 /* Carpe diemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D972426F216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diemUITests" */;
+			buildPhases = (
+				D972425C216B38BE004FE177 /* Sources */,
+				D972425D216B38BE004FE177 /* Frameworks */,
+				D972425E216B38BE004FE177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9724262216B38BE004FE177 /* PBXTargetDependency */,
+			);
+			name = "Carpe diemUITests";
+			productName = "Carpe diemUITests";
+			productReference = D9724260216B38BE004FE177 /* Carpe diemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9724236216B38BC004FE177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = massarovaleriogiuseppe;
+				TargetAttributes = {
+					D972423D216B38BC004FE177 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D9724254216B38BE004FE177 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D972423D216B38BC004FE177;
+					};
+					D972425F216B38BE004FE177 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D972423D216B38BC004FE177;
+					};
+				};
+			};
+			buildConfigurationList = D9724239216B38BC004FE177 /* Build configuration list for PBXProject "Carpe diem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9724235216B38BC004FE177;
+			productRefGroup = D972423F216B38BC004FE177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D972423D216B38BC004FE177 /* Carpe diem */,
+				D9724254216B38BE004FE177 /* Carpe diemTests */,
+				D972425F216B38BE004FE177 /* Carpe diemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D972423C216B38BC004FE177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D972424F216B38BE004FE177 /* LaunchScreen.storyboard in Resources */,
+				D972424C216B38BE004FE177 /* Assets.xcassets in Resources */,
+				D9724247216B38BD004FE177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9724253216B38BE004FE177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D972425E216B38BE004FE177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D972423A216B38BC004FE177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DD7CCF216BB405009A38CF /* TableViewControllerPosizioni.swift in Sources */,
+				17E94CFF216D1D9000542665 /* Carpe_diem.xcdatamodeld in Sources */,
+				D9724244216B38BD004FE177 /* ViewController.swift in Sources */,
+				D9724242216B38BD004FE177 /* AppDelegate.swift in Sources */,
+				D9DD7CDD216CA68C009A38CF /* TableViewControllerRequisiti.swift in Sources */,
+				D9DD7CD1216BC904009A38CF /* TableViewCellPosizioni.swift in Sources */,
+				D9DD7CDB216C8B08009A38CF /* TableViewCellRequisiti.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9724251216B38BE004FE177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D972425A216B38BE004FE177 /* Carpe_diemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D972425C216B38BE004FE177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9724265216B38BE004FE177 /* Carpe_diemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9724257216B38BE004FE177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D972423D216B38BC004FE177 /* Carpe diem */;
+			targetProxy = D9724256216B38BE004FE177 /* PBXContainerItemProxy */;
+		};
+		D9724262216B38BE004FE177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D972423D216B38BC004FE177 /* Carpe diem */;
+			targetProxy = D9724261216B38BE004FE177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9724245216B38BD004FE177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9724246216B38BD004FE177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D972424D216B38BE004FE177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D972424E216B38BE004FE177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9724267216B38BE004FE177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9724268216B38BE004FE177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D972426A216B38BE004FE177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diem/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D972426B216B38BE004FE177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diem/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D972426D216B38BE004FE177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carpe diem.app/Carpe diem";
+			};
+			name = Debug;
+		};
+		D972426E216B38BE004FE177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carpe diem.app/Carpe diem";
+			};
+			name = Release;
+		};
+		D9724270216B38BE004FE177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carpe diem";
+			};
+			name = Debug;
+		};
+		D9724271216B38BE004FE177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3385HTW395;
+				INFOPLIST_FILE = "Carpe diemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mittwich.Carpe-diemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carpe diem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9724239216B38BC004FE177 /* Build configuration list for PBXProject "Carpe diem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9724267216B38BE004FE177 /* Debug */,
+				D9724268216B38BE004FE177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9724269216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D972426A216B38BE004FE177 /* Debug */,
+				D972426B216B38BE004FE177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D972426C216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D972426D216B38BE004FE177 /* Debug */,
+				D972426E216B38BE004FE177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D972426F216B38BE004FE177 /* Build configuration list for PBXNativeTarget "Carpe diemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9724270216B38BE004FE177 /* Debug */,
+				D9724271216B38BE004FE177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17E94CFD216D1D9000542665 /* Carpe_diem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17E94CFE216D1D9000542665 /* Carpe_diem.xcdatamodel */,
+			);
+			currentVersion = 17E94CFE216D1D9000542665 /* Carpe_diem.xcdatamodel */;
+			name = Carpe_diem.xcdatamodeld;
+			path = "../../../CarpeDiem/Carpe diem/Carpe_diem.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9724236216B38BC004FE177 /* Project object */;
+}

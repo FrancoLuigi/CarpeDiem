@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Utente" representedClassName="Utente" syncable="YES" codeGenerationType="class">
+        <attribute name="competenza" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="esperienza" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flag" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ramo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titolo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Utente" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
