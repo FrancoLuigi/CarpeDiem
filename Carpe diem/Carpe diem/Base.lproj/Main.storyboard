@@ -532,10 +532,10 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image-125510-galleryV9-aepr-125510-2 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GJ2-o5-Uof">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account complete!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0O-Us-B9I">
-                                <rect key="frame" x="45" y="333" width="314" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Account complete!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0O-Us-B9I">
+                                <rect key="frame" x="30" y="333" width="314" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -551,12 +551,6 @@
                                     <segue destination="JMS-c0-TSs" kind="show" id="anT-cK-p2A"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can change it next!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo8-0H-MwQ">
-                                <rect key="frame" x="118" y="388" width="151" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xgH-dP-HHo">
                                 <rect key="frame" x="118" y="133" width="138" height="128"/>
                                 <subviews>
@@ -565,6 +559,12 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You can change it ahead!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo8-0H-MwQ">
+                                <rect key="frame" x="107" y="388" width="167" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -581,7 +581,7 @@
                             <constraint firstItem="03O-SP-r1H" firstAttribute="bottom" secondItem="fZ9-fC-LIy" secondAttribute="bottom" constant="74" id="JVC-lq-obD"/>
                             <constraint firstItem="w0O-Us-B9I" firstAttribute="top" secondItem="xgH-dP-HHo" secondAttribute="bottom" constant="72" id="KFI-Tg-BSd"/>
                             <constraint firstItem="03O-SP-r1H" firstAttribute="trailing" secondItem="lo8-0H-MwQ" secondAttribute="trailing" constant="106" id="KNf-30-EFt"/>
-                            <constraint firstItem="03O-SP-r1H" firstAttribute="trailing" secondItem="lo8-0H-MwQ" secondAttribute="trailing" constant="106" id="MNn-xh-zcE"/>
+                            <constraint firstItem="03O-SP-r1H" firstAttribute="trailing" secondItem="lo8-0H-MwQ" secondAttribute="trailing" constant="90" id="MNn-xh-zcE"/>
                             <constraint firstItem="lo8-0H-MwQ" firstAttribute="leading" secondItem="03O-SP-r1H" secondAttribute="leading" constant="118" id="SEN-WL-Nzp"/>
                             <constraint firstItem="fZ9-fC-LIy" firstAttribute="top" secondItem="lo8-0H-MwQ" secondAttribute="bottom" constant="142" id="pPq-iK-8HH"/>
                             <constraint firstItem="03O-SP-r1H" firstAttribute="trailing" secondItem="fZ9-fC-LIy" secondAttribute="trailing" constant="34" id="q6f-Y2-32A"/>
@@ -618,7 +618,6 @@
                 <navigationController id="Bnf-ms-dOs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Job placement" id="xPP-za-qRu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ov7-ol-DWj">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -835,7 +834,6 @@
                 <navigationController id="Iwx-cI-24Y" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Requirements" id="qtw-kA-KJ9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WnP-hT-tFy">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -852,7 +850,6 @@
                 <navigationController id="H9X-Nl-wdk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="My profile" id="ivV-bS-GeK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NKA-ME-Bps">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
