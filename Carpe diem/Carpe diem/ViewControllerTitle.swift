@@ -35,10 +35,18 @@ class ViewControllerTitle: UIViewController,UIPickerViewDelegate, UIPickerViewDa
         
         
     }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = titles[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedString.Key.foregroundColor:UIColor.white, NSAttributedString.Key.font:UIFont(name: "Helvetica Neue", size: 21.0)])
+        return myTitle
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        super.viewDidLoad()
+        
+        
+        //pickerView.setValue(UIColor.white, forKeyPath: "textColor")
+        pickerView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
+        //pickerView.setValue(false, forKeyPath: "highlightsFirst")
         
         pickerView.delegate = self
         pickerView.dataSource = self

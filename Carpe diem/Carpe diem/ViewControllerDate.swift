@@ -30,7 +30,9 @@ class ViewControllerDate: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        datePicker.setValue(UIColor.white, forKeyPath: "textColor")
+        datePicker.setValue(false, forKeyPath: "highlightsToday")
       /*  let dateFormatter = DateFormatter()
         var convertedDate: String!
         dateFormatter.dateFormat = "dd/MM/yyyy"

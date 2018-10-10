@@ -11,7 +11,7 @@ import UIKit
 class ViewControllerExperience: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     var t : String = ""
-    let  experience = ["No experience","1-3 years","3-5 years", "7 o more years"]
+    let experience = ["No experience","1-3 years","3-5 years", "7 o more years"]
     
     @IBOutlet weak var pickerView: UIPickerView!
     @IBAction func buttonClick(_ sender: UIButton) {
@@ -29,12 +29,17 @@ class ViewControllerExperience: UIViewController, UIPickerViewDelegate, UIPicker
             appDelegate.saveContext()
         }
         
-        
     }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = experience[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedString.Key.foregroundColor:UIColor.white])
+        return myTitle
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        super.viewDidLoad()
+        pickerView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
         
         pickerView.delegate = self
         pickerView.dataSource = self

@@ -19,22 +19,24 @@ class ViewControllerSector: UIViewController, UIPickerViewDelegate, UIPickerView
             let context = appDelegate.persistentContainer.viewContext
             
             
-            
             var titolo = TitoloMO(context : context)
-            
             
             titolo.settore = s
             print(titolo.settore)
             
             appDelegate.saveContext()
         }
-        
+    }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = sectors[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedString.Key.foregroundColor:UIColor.white])
+        return myTitle
     }
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            
-            super.viewDidLoad()
+        
+        pickerView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
             
             pickerView.delegate = self
             pickerView.dataSource = self

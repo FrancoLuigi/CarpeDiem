@@ -11,14 +11,12 @@ import UIKit
 class ViewControllerSkills: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     var t : String = ""
     let  skills = ["Mobile","Web","Desktop", "Database"]
-    let  skills1 = ["Giudice","Avvocato","Notaio"]
+    //let  skills1 = ["Giudice","Avvocato","Notaio"]
     
     @IBOutlet weak var pickerView: UIPickerView!
     @IBAction func buttonClick(_ sender: UIButton) {
         if let appDelegate = (UIApplication.shared.delegate as? AppDelegate){
             let context = appDelegate.persistentContainer.viewContext
-            
-            
             
             var competenza = CompetenzaMO(context : context)
             
@@ -27,13 +25,18 @@ class ViewControllerSkills: UIViewController, UIPickerViewDelegate, UIPickerView
             
             appDelegate.saveContext()
         }
-        
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = skills[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedString.Key.foregroundColor:UIColor.white])
+        return myTitle
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        super.viewDidLoad()
+        pickerView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
         
         pickerView.delegate = self
         pickerView.dataSource = self
