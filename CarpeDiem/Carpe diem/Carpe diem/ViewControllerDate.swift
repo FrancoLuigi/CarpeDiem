@@ -34,6 +34,7 @@ class ViewControllerDate: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
         
         datePicker.setValue(UIColor.white, forKeyPath: "textColor")
         datePicker.setValue(false, forKeyPath: "highlightsToday")

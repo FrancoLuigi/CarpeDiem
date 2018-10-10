@@ -434,8 +434,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7r-Se-4Nd">
-                                <rect key="frame" x="0.0" y="165" width="375" height="225"/>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A7r-Se-4Nd">
+                                <rect key="frame" x="0.0" y="165" width="375" height="187"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-iF-y2w">

@@ -41,7 +41,7 @@ class ViewControllerTitle: UIViewController,UIPickerViewDelegate, UIPickerViewDa
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.hideKeyboardWhenTappedAround()
         
         //pickerView.setValue(UIColor.white, forKeyPath: "textColor")
         pickerView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
