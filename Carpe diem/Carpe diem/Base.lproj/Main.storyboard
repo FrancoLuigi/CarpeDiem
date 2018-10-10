@@ -103,9 +103,7 @@
                             <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="Ohn-eX-mha" secondAttribute="trailing" constant="72" id="9Uv-rn-UOr"/>
                             <constraint firstItem="pFu-wS-zou" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" constant="39" id="K3Q-Qv-7mJ"/>
                             <constraint firstItem="txg-jp-ArT" firstAttribute="bottom" secondItem="Mki-vW-6Zr" secondAttribute="bottom" id="KoO-vP-I9g"/>
-                            <constraint firstItem="TzN-LA-piY" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" constant="39" id="Kqo-G5-7Zs"/>
                             <constraint firstItem="txg-jp-ArT" firstAttribute="trailing" secondItem="Mki-vW-6Zr" secondAttribute="trailing" id="Lb7-mi-ASz"/>
-                            <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="TzN-LA-piY" secondAttribute="trailing" constant="34" id="ODR-eE-eEh"/>
                             <constraint firstItem="C1J-ZC-T4h" firstAttribute="top" secondItem="Ohn-eX-mha" secondAttribute="bottom" constant="7" id="UtU-P3-tfz"/>
                             <constraint firstItem="txg-jp-ArT" firstAttribute="bottom" secondItem="Mki-vW-6Zr" secondAttribute="bottom" id="ZKB-yK-3Rp"/>
                             <constraint firstItem="txg-jp-ArT" firstAttribute="trailing" secondItem="Mki-vW-6Zr" secondAttribute="trailing" id="dz7-DT-QYg"/>
@@ -114,15 +112,10 @@
                             <constraint firstItem="Mki-vW-6Zr" firstAttribute="bottom" secondItem="TzN-LA-piY" secondAttribute="bottom" constant="74" id="gye-kA-vZj"/>
                             <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="pFu-wS-zou" secondAttribute="trailing" constant="34" id="hcd-Va-xag"/>
                             <constraint firstItem="TzN-LA-piY" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" constant="39" id="koU-lO-1EZ"/>
-                            <constraint firstItem="TzN-LA-piY" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" constant="39" id="lc4-63-N9e"/>
                             <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="TzN-LA-piY" secondAttribute="trailing" constant="34" id="m9P-Ct-W3B"/>
                             <constraint firstItem="TzN-LA-piY" firstAttribute="top" secondItem="C1J-ZC-T4h" secondAttribute="bottom" constant="168" id="mpd-d0-rlD"/>
-                            <constraint firstItem="txg-jp-ArT" firstAttribute="top" secondItem="gm3-5k-fSF" secondAttribute="topMargin" id="n0l-R2-4Kt"/>
-                            <constraint firstItem="Mki-vW-6Zr" firstAttribute="bottom" secondItem="TzN-LA-piY" secondAttribute="bottom" constant="74" id="n6H-ED-1uh"/>
                             <constraint firstItem="Ohn-eX-mha" firstAttribute="top" secondItem="pFu-wS-zou" secondAttribute="bottom" constant="122" id="n6m-fu-fZB"/>
                             <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="C1J-ZC-T4h" secondAttribute="trailing" constant="34" id="n7d-xc-LAL"/>
-                            <constraint firstItem="TzN-LA-piY" firstAttribute="top" secondItem="C1J-ZC-T4h" secondAttribute="bottom" constant="168" id="oAt-8n-lF2"/>
-                            <constraint firstItem="Mki-vW-6Zr" firstAttribute="trailing" secondItem="TzN-LA-piY" secondAttribute="trailing" constant="34" id="qGW-wO-qFK"/>
                             <constraint firstItem="pFu-wS-zou" firstAttribute="top" secondItem="Mki-vW-6Zr" secondAttribute="top" constant="27" id="ryt-vn-IqB"/>
                             <constraint firstItem="txg-jp-ArT" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" id="sw2-zi-OF1"/>
                             <constraint firstItem="C1J-ZC-T4h" firstAttribute="leading" secondItem="Mki-vW-6Zr" secondAttribute="leading" constant="39" id="tEf-is-u3y"/>
