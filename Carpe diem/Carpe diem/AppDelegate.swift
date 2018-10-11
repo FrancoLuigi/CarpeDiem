@@ -12,12 +12,13 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, NSFetchedResultsControllerDelegate {
     
+    
     var window: UIWindow?
     var persone: [PersonaMO] = []
     var fetchResultController : NSFetchedResultsController<PersonaMO>!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+         UINavigationBar.appearance().tintColor = UIColor(red: 0.97, green: 0.77, blue: 0.17, alpha: 1.0)
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
