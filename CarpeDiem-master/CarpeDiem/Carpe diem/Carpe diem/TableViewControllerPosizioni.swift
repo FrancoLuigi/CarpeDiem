@@ -62,7 +62,7 @@ class TableViewControllerPosizioni: UITableViewController, UISearchResultsUpdati
                 try fetchResultController.performFetch()
                 if let fetchedObjects = fetchResultController.fetchedObjects {
                     persone = fetchedObjects
-                    var persona = persone [persone.count-1]
+                    var persona = persone [persone.count-num]
 
                     print(persona)
                     

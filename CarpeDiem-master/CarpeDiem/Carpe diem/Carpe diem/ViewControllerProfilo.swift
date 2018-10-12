@@ -194,7 +194,7 @@ class ViewControllerProfilo: UIViewController, NSFetchedResultsControllerDelegat
     var persona = PersonaMO()
     let  titles = ["", "", "Degree","Diploma", "Certificate", "", "", "", ""]
     let  skills = ["", "", "Development", "Design", "DataBase", "OS", "Robotics", "Telecommunications", "Web"]
-    let  sectors = ["","", "", "Computer Engineering", "Energy Engineering", "Management Engineering", "Jurisprudence", "", ""]
+    let  sectors = ["","", "", "Computer engineering", "Energy Engineering", "Management Engineering", "Jurisprudence", "", ""]
     let experience = ["", "", "", "No experience", "1-3 years", "3-5 years", "5 or more years", "", ""]
     var nome : String?
     var numberForButton = 0
